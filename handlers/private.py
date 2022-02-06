@@ -15,7 +15,7 @@ async def start_(client: Client, message: Message):
 
 🇴ᴡɴᴇʀ :- [Sᴜᴍɪᴛ Yᴀᴅᴀᴠ](https://t.me/Simple_Mundaa)
 🇸ᴜᴘᴘᴏʀᴛ 🇬ʀᴏᴜᴘ   » [Wᴏʀʟᴅ FʀɪᴇɴᴅSʜɪᴘ Zᴏɴᴇ](https://t.me/World_FriendShip_Zone)
-🇩ɪsᴄᴜss 🇬ʀᴏᴜᴘ  » [Dᴇᴍᴏɴ Cʀᴇᴀᴛᴏʀs Sᴜᴘᴘᴏʀᴛ](https://t.me/Demon_Creators_Support)
+🇩ɪsᴄᴜss 🇬ʀᴏᴜᴘ  » [Dᴇᴍᴏɴ Cʀᴇᴀᴛᴏʀs Sᴜᴘᴘᴏʀᴛ](https://t.me/Demon_Support_Group)
 🇾ᴏᴜᴛᴜʙᴇ 🇨ʜᴀɴɴᴇʟ   » [ᴀs ᴛᴇᴄʜɴɪᴄᴀʟ](https://youtube.com/channel/UCtI7hbY-BD7wvuIzoSU0cEw)
 🇫ᴇᴍᴀʟᴇ 🇴ᴡɴᴇʀ  » [Nɪᴋɪᴛᴀ](https://t.me/Cute_Shezhadi012)
 🇺ᴘᴅᴀᴛᴇ 🇨ʜᴀɴɴᴇʟ  » [Dᴇᴍᴏɴ Cʀᴇᴀᴛᴏʀs](https://t.me/Demon_Creators)
