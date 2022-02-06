@@ -168,7 +168,7 @@ async def play(_, message: Message):
                [
                     InlineKeyboardButton(
                             text="Dɪsᴄᴜss",
-                            url=f"https://t.me/Demon_Creators_Support"),
+                            url=f"https://t.me/Demon_Support_Group"),
                             
                     InlineKeyboardButton(
                             text="Sᴜᴘᴘᴏʀᴛ",
@@ -221,7 +221,7 @@ async def play(_, message: Message):
                [
                     InlineKeyboardButton(
                             text="Dɪsᴄᴜss",
-                            url=f"https://t.me/Demon_Creators_Support"),
+                            url=f"https://t.me/Demon_Support_Group"),
                             
                     InlineKeyboardButton(
                             text="Sᴜᴘᴘᴏʀᴛ",
@@ -251,7 +251,7 @@ async def play(_, message: Message):
                [
                     InlineKeyboardButton(
                             text="Dɪsᴄᴜss",
-                            url=f"https://t.me/Demon_Creators_Support"),
+                            url=f"https://t.me/Demon_Support_Group"),
                             
                     InlineKeyboardButton(
                             text="Sᴜᴘᴘᴏʀᴛ",
@@ -319,7 +319,7 @@ async def play(_, message: Message):
                [
                     InlineKeyboardButton(
                             text="Dɪsᴄᴜss",
-                            url=f"https://t.me/Demon_Creators_Support"),
+                            url=f"https://t.me/Demon_Support_Group"),
                             
                     InlineKeyboardButton(
                             text="Sᴜᴘᴘᴏʀᴛ",
