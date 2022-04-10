@@ -98,7 +98,7 @@ async def play(_, message: Message):
     global que
     global useer
 
-    lel = await message.reply("🔎 **ғɪɴᴅɪɴɢ ᴛʜᴇ sᴏɴɢ 🅳︎ᴇᴍᴏɴ 🅼︎ᴜsɪᴄ 🅱︎ᴏᴛ...**")
+    lel = await message.reply("🔎 **ғɪɴᴅɪɴɢ ᴛʜᴇ sᴏɴɢ 🇰Ꭵꪀᧁ 🇲ꪊ𝘴𝓲ᥴ🇵ꪶꪖꪗꫀƦ...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -106,7 +106,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Demon_Music"
+        user.first_name = "KING_MUSICYU"
     usar = user
     wew = usar.id
     try:
@@ -118,13 +118,13 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ᴏғ ʏᴏᴜʀ ɢʀᴏᴜᴘ ғɪʀsᴛ 🅳︎ᴇᴍᴏɴ 🅼︎ᴜsɪᴄ 🅱︎ᴏᴛ</b>")
+                        "<b>ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ᴏғ ʏᴏᴜʀ ɢʀᴏᴜᴘ ғɪʀsᴛ 🇰Ꭵꪀᧁ 🇲ꪊ𝘴𝓲ᥴ🇵ꪶꪖꪗꫀƦ</b>")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "** ✅ ᴍᴜsɪᴄ ᴀssɪsᴛᴀɴᴛ ᴊᴏɪɴᴇᴅ ᴛʜɪs ғᴏʀ ᴘʟᴀʏ ᴍᴜsɪᴄ**")
+                        message.chat.id, "** ✅ KING ᴍᴜsɪᴄ ᴀssɪsᴛᴀɴᴛ ᴊᴏɪɴᴇᴅ ᴛʜɪs ғᴏʀ ᴘʟᴀʏ ᴍᴜsɪᴄ**")
 
                 except UserAlreadyParticipant:
                     pass
@@ -153,7 +153,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/d0df583e1a2c0a65d9698.jpg"
+        thumb_name = "https://telegra.ph/file/bc301e7b97e83c09f057d.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -162,25 +162,15 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="Uᴘᴅᴀᴛᴇ",
-                            url=f"https://t.me/Demon_Creators")
+                            text="❰⭕️𝐒ᴜᴘᴘᴏʀᴛ⭕️❱",
+                            url=f"https://t.me/tamil_chatbox")
                ],
                [
                     InlineKeyboardButton(
-                            text="Dɪsᴄᴜss",
-                            url=f"https://t.me/Demon_Support_Group"),
-                            
-                    InlineKeyboardButton(
-                            text="Sᴜᴘᴘᴏʀᴛ",
-                            url=f"https://t.me/World_FriendShip_Zone")
-               ],
-               [
-                        InlineKeyboardButton(
-                            text="Mᴏᴠɪᴇs ɢʀᴏᴜᴘ",
-                            url=f"https://t.me/MovieFlix_Movies_Group")
-                   
-                ]
-            ]
+                            text="❰💙𝐂ʜᴀɴɴᴇʟ❤️❱",
+                            url=f"https://t.me/king_bioz"),
+              ],
+              ]
         )
 
         requested_by = message.from_user.first_name
@@ -215,60 +205,43 @@ async def play(_, message: Message):
               [
                 [
                     InlineKeyboardButton(
-                            text="Uᴘᴅᴀᴛᴇ",
-                            url=f"https://t.me/Demon_Creators")
+                            text="❰⭕️𝐒ᴜᴘᴘᴏʀᴛ⭕️❱",
+                            url=f"https://t.me/tamil_chatbox")
                ],
                [
                     InlineKeyboardButton(
-                            text="Dɪsᴄᴜss",
-                            url=f"https://t.me/Demon_Support_Group"),
+                            text="❰💙𝐂ʜᴀɴɴᴇʟ❤️❱",
+                            url=f"https://t.me/king_bioz"),
                             
-                    InlineKeyboardButton(
-                            text="Sᴜᴘᴘᴏʀᴛ",
-                            url=f"https://t.me/World_FriendShip_Zone")
-               ],
-               [
-                        InlineKeyboardButton(
-                            text="Mᴏᴠɪᴇs ɢʀᴏᴜᴘ",
-                            url=f"https://t.me/MovieFlix_Movies_Group")
-                   
-                ]
+
+                ],
             ]
         )
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/d0df583e1a2c0a65d9698.jpg"
+            thumb_name = "https://telegra.ph/file/bc301e7b97e83c09f057d.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
               [
                 [
                     InlineKeyboardButton(
-                            text="Uᴘᴅᴀᴛᴇ",
-                            url=f"https://t.me/Demon_Creators")
+                            text="❰⭕️𝐒ᴜᴘᴘᴏʀᴛ⭕️❱",
+                            url=f"https://t.me/tamil_chatbox")
                ],
                [
                     InlineKeyboardButton(
-                            text="Dɪsᴄᴜss",
-                            url=f"https://t.me/Demon_Support_Group"),
-                            
-                    InlineKeyboardButton(
-                            text="Sᴜᴘᴘᴏʀᴛ",
-                            url=f"https://t.me/World_FriendShip_Zone")
-               ],
-               [
-                        InlineKeyboardButton(
-                            text="Mᴏᴠɪᴇs ɢʀᴏᴜᴘ",
-                            url=f"https://t.me/MovieFlix_Movies_Group")
-                   
+                            text="❰💙𝐂ʜᴀɴɴᴇʟ❤️❱",
+                            url=f"https://t.me/king_bioz"),
+                               
                 ]
             ]
         )
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**Sᴏɴɢ ʟᴏɴɢᴇʀ ᴛʜᴀɴ {DURATION_LIMIT} ᴍɪɴᴜᴛᴇ's ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ**"
+                f"**👑Sᴏɴɢ ʟᴏɴɢᴇʀ ᴛʜᴀɴ {DURATION_LIMIT} ᴍɪɴᴜᴛᴇ's ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ👑**"
             )
             return
         requested_by = message.from_user.first_name
@@ -277,9 +250,9 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "Gɪᴠᴇ ᴍᴜsɪᴄ ɴᴀᴍᴇ ᴛᴏ ᴘʟᴀʏ**"
+                "👑Gɪᴠᴇ ᴍᴜsɪᴄ ɴᴀᴍᴇ ᴛᴏ ᴘʟᴀʏ👑**"
             )
-        await lel.edit("⚡")
+        await lel.edit("👑")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -304,7 +277,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "**sᴏɴɢ ɴᴏᴛ ғᴏᴜɴᴅ sᴘᴇʟʟɪɴɢ ᴘᴇᴏʙʟᴇᴍ...**"
+                "**👑sᴏɴɢ ɴᴏᴛ ғᴏᴜɴᴅ sᴘᴇʟʟɪɴɢ ᴘᴇᴏʙʟᴇᴍ...👑**"
             )
             print(str(e))
             return
@@ -313,22 +286,15 @@ async def play(_, message: Message):
               [
                 [
                     InlineKeyboardButton(
-                            text="Uᴘᴅᴀᴛᴇ",
-                            url=f"https://t.me/Demon_Creators")
+                            text="❰⭕️𝐒ᴜᴘᴘᴏʀᴛ⭕️❱",
+                            url=f"https://t.me/tamil_chatbox")
                ],
                [
                     InlineKeyboardButton(
-                            text="Dɪsᴄᴜss",
-                            url=f"https://t.me/Demon_Support_Group"),
+                            text="❰💙𝐂ʜᴀɴɴᴇʟ❤️❱",
+                            url=f"https://t.me/king_bioz"),
                             
-                    InlineKeyboardButton(
-                            text="Sᴜᴘᴘᴏʀᴛ",
-                            url=f"https://t.me/World_FriendShip_Zone")
-               ],
-               [
-                        InlineKeyboardButton(
-                            text="Mᴏᴠɪᴇs ɢʀᴏᴜᴘ",
-                            url=f"https://t.me/MovieFlix_Movies_Group")
+
                    
                 ]
             ]
@@ -336,7 +302,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**sᴏɴɢ ʟᴏɴɢᴇʀ ᴛʜᴀɴ {DURATION_LIMIT} ᴍɪɴᴜᴛᴇ's ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ**"
+                f"**👑sᴏɴɢ ʟᴏɴɢᴇʀ ᴛʜᴀɴ {DURATION_LIMIT} ᴍɪɴᴜᴛᴇ's ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ👑**"
             )
             return
         requested_by = message.from_user.first_name
@@ -350,7 +316,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="****🅳︎ᴇᴍᴏɴ 🅼︎ᴜsɪᴄ 🅱︎ᴏᴛ sᴏɴɢ ᴘᴏsɪᴛɪᴏɴ** {}**".format(position),
+            caption="****⭐🇰Ꭵꪀᧁ 🇲ꪊ𝘴𝓲ᥴ🇵ꪶꪖꪗꫀƦ sᴏɴɢ ᴘᴏsɪᴛɪᴏɴ** {}**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -367,7 +333,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**🅳︎ᴇᴍᴏɴ 🅼︎ᴜsɪᴄ 🅱︎ᴏᴛ ɴᴏᴡ ᴘʟᴀʏɪɴɢ ᴀᴛ `{}`...**".format(
+            caption="**⭐🇰Ꭵꪀᧁ 🇲ꪊ𝘴𝓲ᥴ🇵ꪶꪖꪗꫀƦ ɴᴏᴡ ᴘʟᴀʏɪɴɢ ᴀᴛ `{}`...**".format(
         message.chat.title
         ), )
 
