@@ -28,11 +28,11 @@ async def ytsearch(_, message: Message):
         i = 0
         text = ""
         while i < 4:
-            text += f"Tɪᴛᴇʟ - {results[i]['title']}\n"
-            text += f"Dᴜʀᴀᴛɪᴏɴ - {results[i]['duration']}\n"
-            text += f"Vɪᴇᴡs - {results[i]['views']}\n"
-            text += f"Cʜᴀɴɴᴇʟ - {results[i]['channel']}\n"
-            text += f"https://youtube.com{results[i]['url_suffix']}\n\n"
+            text += f"⭐Tɪᴛᴇʟ - {results[i]['title']}\n"
+            text += f"⭐Dᴜʀᴀᴛɪᴏɴ - {results[i]['duration']}\n"
+            text += f"⭐Vɪᴇᴡs - {results[i]['views']}\n"
+            text += f"⭐Cʜᴀɴɴᴇʟ - {results[i]['channel']}\n"
+            text += f"⭐https://youtube.com{results[i]['url_suffix']}\n\n"
             i += 1
         await m.edit(text, disable_web_page_preview=True)
     except Exception as e:
